@@ -7,7 +7,6 @@ three QuickSort Algorithms.
 
 //main program
 public class Hw4_main {
-
     public static void main(String args[]) {
 
         int size = 100;
@@ -57,6 +56,5 @@ public class Hw4_main {
         t = (System.nanoTime() - t - overhead) / 1000000.0;
 
         System.out.println("QuickInsertSort2 Time: " + t);
-
     }
 }
